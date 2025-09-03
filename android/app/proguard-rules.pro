@@ -46,3 +46,16 @@
 
 # Keep app classes
 -keep class com.nexgen.bharathpin.** { *; }
+
+# Google Play App Update API
+-keep class com.google.android.play.core.appupdate.** { *; }
+-keep class com.google.android.play.core.install.** { *; }
+-keep class com.google.android.play.core.tasks.** { *; }
+-keep class com.google.android.play.core.common.** { *; }
+
+# Keep Google Play services
+-dontwarn com.google.android.play.core.**
+
+# Disable specific Flutter Play Store features that require old Play Core
+-dontwarn io.flutter.embedding.android.FlutterPlayStoreSplitApplication
+-dontwarn io.flutter.embedding.engine.deferredcomponents.**
