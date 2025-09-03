@@ -1,0 +1,145 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Security and Signing Keys - CRITICAL for Play Store
+/android/key.properties
+/android/upload-keystore.jks
+/android/release-keystore.jks
+/android/app/upload-keystore.jks
+/android/app/release-keystore.jks
+*.keystore
+*.jks
+
+# API Keys and Secrets
+*.env
+.env
+.env.local
+.env.production
+.env.staging
+/lib/config/api_keys.dart
+/lib/config/secrets.dart
+
+# iOS Signing
+/ios/Runner.xcworkspace/xcuserdata/
+/ios/Runner.xcodeproj/xcuserdata/
+/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web Build Files
+/web/favicon.png.old
+/web/index.html.backup
+
+# Coverage
+coverage/
+lcov.info
+
+# Firebase
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/ios/firebase_app_id_file.json
+/lib/firebase_options.dart
+
+# Local development files
+*.local
+.vscode/settings.json
+.vscode/launch.json
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*~
+
+# OS generated files
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Windows specific
+*.exe
+*.msi
+*.msm
+*.msp
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Play Store Assets
+/play_store_assets/screenshots/
+/play_store_assets/private/
+PLAY_STORE_SUBMISSION.md
+android/key.properties.template
+ICON_SETUP_GUIDE.md
