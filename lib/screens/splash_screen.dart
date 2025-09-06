@@ -350,7 +350,7 @@ class _SplashScreenState extends State<SplashScreen>
                           child: Column(
                             children: [
                               Text(
-                                'India Post Office',
+                                'BharathPIN – PIN Code Finder',
                                 style: TextStyle(
                                   fontSize:
                                       MediaQuery.of(context).size.width < 350
@@ -391,7 +391,7 @@ class _SplashScreenState extends State<SplashScreen>
                                   ),
                                 ),
                                 child: const Text(
-                                  'Official • Accurate • Trusted',
+                                  'Smart • Accurate • Easy',
                                   style: TextStyle(
                                     fontSize: 13,
                                     color: Color(0xFF6B7280),
@@ -515,7 +515,7 @@ class _SplashScreenState extends State<SplashScreen>
                                 ),
                                 const SizedBox(width: 8),
                                 const Text(
-                                  'Powered by India Post',
+                                  'Data sourced from India Post',
                                   style: TextStyle(
                                     fontSize: 12,
                                     color: Color(0xFF6B7280),
